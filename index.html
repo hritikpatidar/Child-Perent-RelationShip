@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Child Perent RelationShip</title>
+        <style>
+            #p{
+                width: 500px;
+                height: 500px;
+                background-color: red;
+                margin: auto;
+            }
+            #p div#c1{
+                width: 250px;
+                height: 250px;
+                background-color: blue;                
+                
+            }
+
+            #cc1{
+                width: 150px;
+                height: 150px;
+                background-color: lavender;
+                
+               
+            }
+            #c2{
+                width: 250px;
+                height: 250px;
+                background-color: pink;
+            }
+            #p:hover #c1{
+                background-color: rgb(8, 156, 95);
+                border-radius: 250px;
+            }
+            #p:hover #cc1{
+                display: none;
+            }
+
+            #p:hover #c2{
+                border-radius: 90px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="p">
+            <div id="c1">
+                <div id="cc1"></div>
+            </div>
+            <div id="c2"></div>
+        </div>
+    </body>
+</html>
